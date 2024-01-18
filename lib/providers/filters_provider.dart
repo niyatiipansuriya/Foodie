@@ -2,19 +2,19 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:foodie_application/providers/meals_provider.dart';
 
 enum Filter {
-  glutenFree,
-  lactoseFree,
-  vegetarian,
-  vegan,
+  Vegetarian,
+  Sweet,
+  Healthy,
+  Quick,
 }
 
 class FiltersNotifier extends StateNotifier<Map<Filter, bool>> {
   FiltersNotifier()
       : super({
-          Filter.glutenFree: false,
-          Filter.lactoseFree: false,
-          Filter.vegetarian: false,
-          Filter.vegan: false,
+          Filter.Vegetarian: false,
+          Filter.Sweet: false,
+          Filter.Healthy: false,
+          Filter.Quick: false,
         });
 
   void setFilters(Map<Filter, bool> chosenFilters) {
@@ -38,16 +38,16 @@ final filterMealsProvider = Provider((ref) {
   final meals = ref.watch(mealsProvider);
   final activeFilters = ref.watch(filtersProvider);
   return meals.where((meal) {
-    if (activeFilters[Filter.glutenFree]! && !meal.isGlutenFree) {
+    if (activeFilters[Filter.Vegetarian]! && !meal.isVegetarian) {
       return false;
     }
-    if (activeFilters[Filter.lactoseFree]! && !meal.isLactoseFree) {
+    if (activeFilters[Filter.Sweet]! && !meal.isSweet) {
       return false;
     }
-    if (activeFilters[Filter.vegetarian]! && !meal.isVegetarian) {
+    if (activeFilters[Filter.Healthy]! && !meal.isHealthy) {
       return false;
     }
-    if (activeFilters[Filter.vegan]! && !meal.isVegan) {
+    if (activeFilters[Filter.Quick]! && !meal.isQuick) {
       return false;
     }
     return true;

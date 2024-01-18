@@ -11,10 +11,10 @@ import 'package:foodie_application/providers/favorites_provider.dart';
 import 'package:foodie_application/providers/filters_provider.dart';
 
 const kInitialFilters = {
-  Filter.glutenFree: false,
-  Filter.lactoseFree: false,
-  Filter.vegan: false,
-  Filter.vegetarian: false
+  Filter.Vegetarian: false,
+  Filter.Sweet: false,
+  Filter.Quick: false,
+  Filter.Healthy: false
 };
 
 class TabsScreen extends ConsumerStatefulWidget {

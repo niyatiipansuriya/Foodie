@@ -67,14 +67,14 @@ class FiltersScreen extends ConsumerWidget {
       //   },
       body: Column(children: [
         SwitchListTile(
-          value: activeFilters[Filter.glutenFree]!,
+          value: activeFilters[Filter.Vegetarian]!,
           onChanged: (isChecked) {
             // setState(() {
             //   _glutenFreeFilterSet = isChecked;
             // });
             ref
                 .read(filtersProvider.notifier)
-                .setFilter(Filter.glutenFree, isChecked);
+                .setFilter(Filter.Vegetarian, isChecked);
           },
           title: Text(
             'Gluten-free',
@@ -92,14 +92,14 @@ class FiltersScreen extends ConsumerWidget {
           contentPadding: const EdgeInsets.only(left: 34, right: 22),
         ),
         SwitchListTile(
-          value: activeFilters[Filter.lactoseFree]!,
+          value: activeFilters[Filter.Sweet]!,
           onChanged: (isChecked) {
             // setState(() {
             //   _glutenFreeFilterSet = isChecked;
             // });
             ref
                 .read(filtersProvider.notifier)
-                .setFilter(Filter.lactoseFree, isChecked);
+                .setFilter(Filter.Sweet, isChecked);
           },
           title: Text(
             'Lactose-free',
@@ -117,14 +117,14 @@ class FiltersScreen extends ConsumerWidget {
           contentPadding: const EdgeInsets.only(left: 34, right: 22),
         ),
         SwitchListTile(
-         value: activeFilters[Filter.vegetarian]!,
+         value: activeFilters[Filter.Healthy]!,
           onChanged: (isChecked) {
             // setState(() {
             //   _glutenFreeFilterSet = isChecked;
             // });
             ref
                 .read(filtersProvider.notifier)
-                .setFilter(Filter.vegetarian, isChecked);
+                .setFilter(Filter.Healthy, isChecked);
           },
           title: Text(
             'Vegetarian',
@@ -142,14 +142,14 @@ class FiltersScreen extends ConsumerWidget {
           contentPadding: const EdgeInsets.only(left: 34, right: 22),
         ),
         SwitchListTile(
-          value: activeFilters[Filter.vegan]!,
+          value: activeFilters[Filter.Quick]!,
           onChanged: (isChecked) {
             // setState(() {
             //   _glutenFreeFilterSet = isChecked;
             // });
             ref
                 .read(filtersProvider.notifier)
-                .setFilter(Filter.vegan, isChecked);
+                .setFilter(Filter.Quick, isChecked);
           },
           title: Text(
             'Vegan',

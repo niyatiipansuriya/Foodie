@@ -157,7 +157,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://th.bing.com/th/id/OIP.s_FoVgx2y4Pgg3qXfW42JgHaJ9?w=156&h=209&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    duration: 20,
+    duration: 40,
     ingredients: [
       'Dry Ingredients:',
       '2 cups whole wheat flour',
@@ -194,10 +194,10 @@ const dummyMeals = [
       '   ',
       'Enjoy your homemade Thepla!',
     ],
-    isGlutenFree: false,
-    isVegan: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: false,
+    isHealthy: true,
+    isQuick: false,
   ),
   Meal(
     id: 'm2',
@@ -209,7 +209,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://th.bing.com/th/id/OIP.GQ-ZGPruj8FVKEdmJOcdBwHaE8?w=280&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    duration: 10,
+    duration: 35,
     ingredients: [
       'For Batter:',
       '1 cup gram flour (besan)',
@@ -247,10 +247,10 @@ const dummyMeals = [
       ' ',
       'Enjoy your soft and spongy Khaman!',
     ],
-    isGlutenFree: false,
-    isVegan: false,
-    isVegetarian: false,
-    isLactoseFree: false,
+    isSweet: false,
+    isHealthy: true,
+    isVegetarian: true,
+    isQuick: true,
   ),
   Meal(
     id: 'm3',
@@ -306,10 +306,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the rich and aromatic flavors of Undhiyu!',
     ],
-    isGlutenFree: false,
-    isVegan: false,
+    isHealthy: false,
+    isQuick: false,
     isVegetarian: false,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm4',
@@ -321,7 +321,7 @@ const dummyMeals = [
     complexity: Complexity.challenging,
     imageUrl:
         'https://th.bing.com/th/id/OIP.flOi34lt3u7yKHwTYxUE-gHaFj?w=251&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    duration: 60,
+    duration: 55,
     ingredients: [
       'For Batter:',
       '1 cup rice',
@@ -364,10 +364,10 @@ const dummyMeals = [
       ' ',
       'Enjoy your homemade Handvo!',
     ],
-    isGlutenFree: false,
-    isVegan: false,
+    isHealthy: false,
+    isQuick: false,
     isVegetarian: false,
-    isLactoseFree: false,
+    isSweet: false,
   ),
   Meal(
     id: 'm5',
@@ -377,7 +377,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://th.bing.com/th/id/OIP.rzvru7wSFsGb_TbQMRwB6AHaE8?w=246&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    duration: 15,
+    duration: 60,
     ingredients: [
       'Fafda:',
       '2 cups gram flour (besan)',
@@ -419,10 +419,10 @@ const dummyMeals = [
       ' ',
       'Enjoy your Fafda and Jalebi!',
     ],
-    isGlutenFree: true,
-    isVegan: false,
+    isHealthy: true,
+    isQuick: false,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm6',
@@ -434,7 +434,7 @@ const dummyMeals = [
     complexity: Complexity.hard,
     imageUrl:
         'https://th.bing.com/th/id/OIP.tj33CPaKi7SZVsbdsVcVYgHaHE?w=209&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    duration: 240,
+    duration: 15,
     ingredients: [
       '1 cup rice flour',
       '2.5 cups water',
@@ -458,10 +458,10 @@ const dummyMeals = [
       ' ',
       'Khichu is often enjoyed as a tea-time snack or as part of a meal in Gujarat. Its a simple yet flavorful dish that you can customize by adjusting the spice levels according to your preference.',
     ],
-    isGlutenFree: true,
-    isVegan: false,
+    isHealthy: true,
+    isQuick: false,
     isVegetarian: true,
-    isLactoseFree: false,
+    isSweet: false,
   ),
   Meal(
     id: 'm7',
@@ -506,10 +506,10 @@ const dummyMeals = [
       ' ',
       'Gujarati Kadhi is known for its light and tangy flavor, and it makes for a comforting and delightful dish, especially when paired with rice.',
     ],
-    isGlutenFree: true,
-    isVegan: false,
+    isHealthy: true,
+    isQuick: false,
     isVegetarian: true,
-    isLactoseFree: false,
+    isSweet: false,
   ),
   Meal(
     id: 'm8',
@@ -521,7 +521,7 @@ const dummyMeals = [
     complexity: Complexity.challenging,
     imageUrl:
         'https://th.bing.com/th/id/OIP.fDwGAIsvUYe26qBDXYI7agHaE7?w=286&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    duration: 35,
+    duration: 30,
     ingredients: [
       '1 cup gram flour (besan)',
       '1/4 cup rice flour',
@@ -552,10 +552,10 @@ const dummyMeals = [
       'Serve Gujarati Gota hot with mint chutney or any other sauce of your choice.',
       'Gujarati Gota makes for a delicious tea-time snack or appetizer, and its enjoyed for its crispy texture and flavorful taste.',
     ],
-    isGlutenFree: true,
-    isVegan: false,
+    isHealthy: true,
+    isQuick: false,
     isVegetarian: false,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm9',
@@ -567,7 +567,7 @@ const dummyMeals = [
     complexity: Complexity.hard,
     imageUrl:
         'https://th.bing.com/th/id/OIP.Rtn6wY4Ae_IdmSNk0BzWLQHaE8?w=287&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    duration: 45,
+    duration: 40,
     ingredients: [
       '1 cup gram flour (besan)',
       '1 cup ghee (clarified butter)',
@@ -592,10 +592,10 @@ const dummyMeals = [
       'Mohanthal is now ready to be served.',
       'Enjoy the rich and nutty flavors of Mohanthal, a delightful sweet often prepared during festivals and special occasions in Gujarat.',
     ],
-    isGlutenFree: true,
-    isVegan: false,
+    isHealthy: true,
+    isQuick: false,
     isVegetarian: true,
-    isLactoseFree: false,
+    isSweet: false,
   ),
   Meal(
     id: 'm10',
@@ -607,7 +607,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://th.bing.com/th/id/OIP.pWf3EbOhxE6xuIxt09nNXQHaE6?w=260&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'For the Outer Layer:',
       '1 cup all-purpose flour (maida)',
@@ -642,10 +642,10 @@ const dummyMeals = [
       'Allow the ghari to soak in the sugar syrup for a few hours until it absorbs the flavors.',
       'Surati Ghari is ready to be served. Enjoy the rich, sweet, and nutty flavors of this festive treat!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm11',
@@ -680,10 +680,10 @@ const dummyMeals = [
       ' ',
       'Khakhra can be enjoyed plain or with various toppings such as ghee, pickle, chutney, or as a base for making snacks like Bhel Puri or Sev Puri. You can also add spices like cumin, sesame seeds, or fenugreek leaves to the dough for added flavor.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm12',
@@ -695,7 +695,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://th.bing.com/th/id/OIP.Ofu3b0fSt6g00yAnu9fBtAHaE7?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    duration: 30,
+    duration: 45,
     ingredients: [
       '1/2 cup basmati rice',
       '4 cups whole milk',
@@ -717,10 +717,10 @@ const dummyMeals = [
       ' ',
       'Doodh Pak is a rich and indulgent dessert that is loved for its creamy texture and aromatic flavors. Its often served during festivals like Diwali or special family gatherings. Enjoy!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm13',
@@ -732,7 +732,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://th.bing.com/th/id/OIP.rxPV1us2VKfFYvElyqeaywHaFy?w=250&h=196&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    duration: 30,
+    duration: 60,
     ingredients: [
       '1 cup urad dal (black gram), soaked overnight',
       '2 cups ghee (clarified butter)',
@@ -762,10 +762,10 @@ const dummyMeals = [
       ' ',
       'Adadiya is a nutritious and flavorful sweet, and it is often consumed during winter to provide warmth and energy. It has a long shelf life and can be stored in an airtight container for several weeks.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm14',
@@ -777,7 +777,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://th.bing.com/th/id/OIP.91fGphQBQL2sMzG6Omz1pwAAAA?w=254&h=165&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    duration: 30,
+    duration: 20,
     ingredients: [
       '1 cup whole wheat flour (gehun ka atta)',
       '1 cup jaggery (gur), grated',
@@ -797,10 +797,10 @@ const dummyMeals = [
           'Once set, cut Sukhadi into squares or diamond shapes.'
           'Sukhadi is a delicious and wholesome sweet with the earthy flavor of whole wheat and the sweetness of jaggery. It is a quick treat that can be made with minimal ingredients, making it a popular choice for festive occasions in Gujarat.'
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm15',
@@ -812,7 +812,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://th.bing.com/th/id/OIP.jtecQPTZJHOsdx3Ca0pbVgHaEn?w=316&h=197&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    duration: 30,
+    duration: 35,
     ingredients: [
       '1/2 cup wheat',
       '3 cups Milk',
@@ -834,10 +834,10 @@ const dummyMeals = [
       'Add the cardamom, sultanas and almonds and mix well.',
       'Serve immediately garnished with almonds and sultanas.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm16',
@@ -848,7 +848,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl: 'https://i.ytimg.com/vi/HlHDgd3pH2I/maxresdefault.jpg',
-    duration: 30,
+    duration: 20,
     ingredients: [
       '2 cups coarsely gound besan',
       '1 cup ghee',
@@ -866,10 +866,10 @@ const dummyMeals = [
       'Fourthly, you can add various types of dry fruits too alongside grated nuts varieties.Make sure the cook the barfi mixture on low-medium heat otherwise it can burn.',
       'Keep stirring the mixture occasionally until it is fully cooked.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm17',
@@ -881,7 +881,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://th.bing.com/th/id/OIP.WwCrHBA3IqjZ0MCukKRTIAHaE8?w=195&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    duration: 30,
+    duration: 90,
     ingredients: [
       '2 cups coarsely gound besan',
       '1 cup ghee',
@@ -899,10 +899,10 @@ const dummyMeals = [
       'Fourthly, you can add various types of dry fruits too alongside grated nuts varieties.Make sure the cook the barfi mixture on low-medium heat otherwise it can burn.',
       'Keep stirring the mixture occasionally until it is fully cooked.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm18',
@@ -933,10 +933,10 @@ const dummyMeals = [
       ' ',
       'Enjoy quick and tasty Palak Paneer!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm19',
@@ -948,7 +948,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://1.bp.blogspot.com/-eaDaaCCvl2c/XcSGNq7PZkI/AAAAAAAAcag/NszW1e5S9mcEjggfJbty55WungRm59ZegCLcBGAsYHQ/s1600/20191021_193914.jpg',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'For the Dough:',
       '2 cups all-purpose flour',
@@ -988,10 +988,10 @@ const dummyMeals = [
       'Allow them to soak for a few minutes, then remove and place them on a plate to cool.',
       'Your homemade Balushahi is ready to be enjoyed! This sweet treat is perfect for festivals, special occasions, or just to satisfy your sweet cravings.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm20',
@@ -1003,7 +1003,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://th.bing.com/th/id/OIP.oyu8D6MK1vJNAYiJjtDNRAHaJH?w=165&h=203&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    duration: 30,
+    duration: 40,
     ingredients: [
       'For Chhena Malpua:'
           '1 cup chhena (Indian cottage cheese or paneer)',
@@ -1040,10 +1040,10 @@ const dummyMeals = [
       'Immediately transfer the fried malpuas into the warm sugar syrup. Let them soak for a few minutes on each side.Ensure that the malpuas absorb the sugar syrup well.',
       'Serve Chhena Malpua warm, garnished with chopped nuts if desired. It is a delightful and rich dessert that is often enjoyed during festivals and special occasions in India.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm21',
@@ -1055,7 +1055,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://th.bing.com/th/id/OIP.xG9Scu1gPgqlPXyTMGOAkAHaID?w=178&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    duration: 30,
+    duration: 60,
     ingredients: [
       '500 grams mutton, preferably with bones, cut into pieces',
       '4-5 tablespoons mustard oil',
@@ -1084,10 +1084,10 @@ const dummyMeals = [
       ' ',
       'Keep in mind that Laal Maas is known for its fiery taste, so adjust the quantity of red chilies and chili powder according to your spice tolerance. This dish is a flavorful representation of the rich culinary heritage of Rajasthan.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm22',
@@ -1099,7 +1099,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.myyellowplate.com/wp-content/uploads/2021/07/Safed-Maas-Rajasthani-Dish.jpg',
-    duration: 30,
+    duration: 45,
     ingredients: [
       '500 grams boneless chicken or mutton, cut into pieces',
       '1 cup yogurt (curd)',
@@ -1127,10 +1127,10 @@ const dummyMeals = [
       ' ',
       'Safed Maas is often served with Indian bread such as naan or roti. The combination of yogurt and cream gives it a rich and creamy texture, making it a delightful and mildly spiced dish compared to its spicier counterpart, Laal Maas. Adjust the spices according to your taste preferences.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm23',
@@ -1142,7 +1142,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.myyellowplate.com/wp-content/uploads/2021/07/Best-Rajasthani-Non-Veg-Dishes-2.jpg',
-    duration: 30,
+    duration: 90,
     ingredients: [
       ' 500 grams mutton, preferably with bones, cut into pieces',
       '1/2 cup mustard oil',
@@ -1168,10 +1168,10 @@ const dummyMeals = [
       'Adjust salt and spice levels according to taste.',
       'Garnish with fresh coriander leaves.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm24',
@@ -1183,7 +1183,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.myyellowplate.com/wp-content/uploads/2021/07/Rajasthani-Banjara-Mutton-Ghost-2000x1125.jpg',
-    duration: 30,
+    duration: 75,
     ingredients: [
       'For Marination:',
       '500 grams mutton or lamb, cut into pieces',
@@ -1234,10 +1234,10 @@ const dummyMeals = [
       'Garnish with fresh coriander leaves.',
       'Serve Banjara Ghost hot with Indian bread like naan or rice.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm25',
@@ -1249,7 +1249,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.myyellowplate.com/wp-content/uploads/2021/07/Bhuna-Kukad-Rajasthani-Non-Veg-Dishes.jpg',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'For Marination:',
       '1 kg chicken, cut into pieces',
@@ -1297,10 +1297,10 @@ const dummyMeals = [
       'Garnish with fresh coriander leaves.',
       'Serve Bhuna Kukda hot with Indian bread like naan or roti.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm26',
@@ -1312,7 +1312,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/01/DalBati.jpg',
-    duration: 30,
+    duration: 105,
     ingredients: [
       'Dal:',
       '1 cup mixed lentils (toor dal, moong dal, chana dal)',
@@ -1366,10 +1366,10 @@ const dummyMeals = [
       ' ',
       'Serve hot bati with dal and churma on the side. Drizzle ghee over the bati before serving for an authentic flavor. This combination is a wholesome and delicious Rajasthani meal.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm27',
@@ -1381,7 +1381,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/01/Mawa-Kachodi.jpg',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'For the Dough:',
       '1 cup all-purpose flour (maida)',
@@ -1412,10 +1412,10 @@ const dummyMeals = [
       ' ',
       'Serve garnished with nuts. Enjoy your Rajasthani Mawa Kachori!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm28',
@@ -1427,7 +1427,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/01/Mirchi_Bada_2.jpg',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'For the Filling:',
       '6-8 large green chilies',
@@ -1464,10 +1464,10 @@ const dummyMeals = [
       ' ',
       'Mirchi Bada is a spicy and flavorful snack that is enjoyed in Rajasthan and other parts of India. Adjust the spiciness according to your taste preferences.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm29',
@@ -1479,7 +1479,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/01/Kalakand_of_Salem.jpg',
-    duration: 30,
+    duration: 60,
     ingredients: [
       '1 liter full-fat milk'
           '1/4 cup lemon juice or white vinegar'
@@ -1505,10 +1505,10 @@ const dummyMeals = [
       ' ',
       'Enjoy this rich and creamy Rajasthani Kalakand that is sure to be a hit during festive occasions or as a delightful dessert.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm30',
@@ -1520,7 +1520,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/01/Kachoris_-_Kolkata_2012-01-13_8321.jpg',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'For the Dough:',
       '2 cups all-purpose flour (maida)',
@@ -1562,10 +1562,10 @@ const dummyMeals = [
       'Serve:',
       'Serve Rajasthani Pyaaz Ki Kachori hot with chutney or yogurt. These kachoris are perfect for breakfast or as a snack during tea time. Enjoy the crispy, flavorful goodness of this Rajasthani specialty!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm31',
@@ -1577,7 +1577,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://bitemeup.com/wp-content/uploads/2019/02/puran-poli-recipe-with-toor-dal-and-chana-dal-1024x684.jpg?ezimgfmt=ng:webp/ngcb2',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'For the Puran (Sweet Lentil Filling):',
       '1 cup chana dal',
@@ -1608,10 +1608,10 @@ const dummyMeals = [
       ' ',
       'Puran Poli is a delightful Indian sweet flatbread, perfect for festivals and celebrations.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm32',
@@ -1623,7 +1623,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://bitemeup.com/wp-content/uploads/2019/02/maxresdefault-15-1024x576.jpg?ezimgfmt=ng:webp/ngcb2',
-    duration: 30,
+    duration: 45,
     ingredients: [
       ' 1 cup grated coconut',
       '1/2 cup grated jaggery',
@@ -1642,10 +1642,10 @@ const dummyMeals = [
       ' ',
       'Enjoy your Modaks!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm33',
@@ -1657,7 +1657,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://bitemeup.com/wp-content/uploads/2019/02/hqdefault-1.jpg?ezimgfmt=ng:webp/ngcb2',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'All-purpose flour (Maida)',
       'Ghee (Clarified butter)',
@@ -1674,10 +1674,10 @@ const dummyMeals = [
       ' ',
       'Enjoy your Chirote!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm34',
@@ -1689,7 +1689,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://bitemeup.com/wp-content/uploads/2019/02/shrikhand.jpg?ezimgfmt=ng:webp/ngcb2',
-    duration: 30,
+    duration: 20,
     ingredients: [
       'Greek yogurt or hung curd',
       'Powdered sugar',
@@ -1705,10 +1705,10 @@ const dummyMeals = [
       ' ',
       'Enjoy chilled Shrikhand!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm35',
@@ -1720,7 +1720,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://bitemeup.com/wp-content/uploads/2019/02/Kesar_Pineapple_Rabri_Basundi_Sweet_Mithai_Recipe_Pudding-1-1024x683.jpg?ezimgfmt=ng:webp/ngcb2',
-    duration: 30,
+    duration: 60,
     ingredients: [
       ' Full-fat milk',
       'Condensed milk',
@@ -1736,10 +1736,10 @@ const dummyMeals = [
       ' ',
       'Enjoy chilled Basundi!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm36',
@@ -1750,7 +1750,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl: 'https://esperienza.in/wp-content/uploads/2020/07/Pav-Bhaji.jpg',
-    duration: 30,
+    duration: 40,
     ingredients: [
       'Potatoes, boiled and mashed',
       'Mixed vegetables (peas, carrots, capsicum), boiled and' 'mashed',
@@ -1776,10 +1776,10 @@ const dummyMeals = [
       ' ',
       'Enjoy your delicious Pav Bhaji!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm37',
@@ -1822,10 +1822,10 @@ const dummyMeals = [
       ' ',
       'Enjoy your flavorful Vada Pav!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isSweet: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isQuick: true,
   ),
   Meal(
     id: 'm38',
@@ -1837,7 +1837,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://esperienza.in/wp-content/uploads/2020/07/misal-pav-1024x576.jpg',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'For Misal (Spicy Curry):',
       'Sprouted moth beans or mixed sprouts',
@@ -1886,10 +1886,10 @@ const dummyMeals = [
       ' ',
       'Enjoy your delicious and spicy Misal Pav!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm39',
@@ -1901,7 +1901,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://esperienza.in/wp-content/uploads/2020/07/kanda-poha-recipe.jpg',
-    duration: 30,
+    duration: 20,
     ingredients: [
       '  2 cups thick or medium Poha (flattened rice)',
       '1 large onion, finely chopped',
@@ -1931,10 +1931,10 @@ const dummyMeals = [
       ' ',
       'Poha makes for a quick and nutritious breakfast or snack. Enjoy your flavorful Poha!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm40',
@@ -1971,10 +1971,10 @@ const dummyMeals = [
       ' ',
       'Enjoy your light and delicious Sabudana Khichadi!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm41',
@@ -2007,10 +2007,10 @@ const dummyMeals = [
       ' ',
       'Enjoy your nutritious and flavorful Thalipeeth!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm42',
@@ -2022,7 +2022,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://esperienza.in/wp-content/uploads/2020/07/bhelpuri-maharashtra1.jpg',
-    duration: 30,
+    duration: 20,
     ingredients: [
       'Puffed rice (murmura)',
       'Sev (thin gram flour noodles)',
@@ -2048,10 +2048,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the delightful and tangy Bhel Puri!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm43',
@@ -2063,7 +2063,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://esperienza.in/wp-content/uploads/2020/07/ragda-patties.jpg',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'Ragda:',
       ' Dried white peas (vatana), soaked and boiled',
@@ -2103,10 +2103,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the delicious and flavorful Ragda Pattice!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm44',
@@ -2118,7 +2118,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://esperienza.in/wp-content/uploads/2020/07/malvani-fish-1024x576.jpg',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'Fish pieces',
       'Malvani masala',
@@ -2142,10 +2142,10 @@ const dummyMeals = [
       ' ',
       'Enjoy your quick and flavorful Malvani Fish Curry!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm45',
@@ -2184,10 +2184,10 @@ const dummyMeals = [
       ' ',
       'Enjoy your quick and delicious Aamti!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm46',
@@ -2199,7 +2199,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.crazymasalafood.com/wp-content/images/2023/08/phirni.jpg.webp',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'Rice',
       'Milk',
@@ -2218,10 +2218,10 @@ const dummyMeals = [
       ' ',
       'Enjoy your delightful and creamy Phirni!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm47',
@@ -2233,7 +2233,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.crazymasalafood.com/wp-content/images/2023/08/aata-pinni.jpg.webp',
-    duration: 30,
+    duration: 40,
     ingredients: [
       ' Whole wheat flour (atta)',
       'Ghee',
@@ -2249,10 +2249,10 @@ const dummyMeals = [
       ' ',
       'Enjoy your homemade Atta Pinni!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm48',
@@ -2264,7 +2264,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.crazymasalafood.com/wp-content/images/2023/08/kada-parshad.jpg.webp',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'Whole wheat flour (atta)',
       'Ghee',
@@ -2279,10 +2279,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the divine taste of homemade Kada Prasad!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm49',
@@ -2294,7 +2294,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.crazymasalafood.com/wp-content/images/2023/08/gajar-ka-halwa.jpg.webp',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'Carrots, grated',
       'Milk',
@@ -2313,10 +2313,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the rich and flavorful Gajar Ka Halwa!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick : true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm50',
@@ -2328,7 +2328,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.crazymasalafood.com/wp-content/images/2023/08/panjiri.jpg.webp',
-    duration: 30,
+    duration: 40,
     ingredients: [
       'Whole wheat flour'
           'Ghee'
@@ -2345,10 +2345,10 @@ const dummyMeals = [
       'Allow it to cool and store Panjiri in an airtight container.',
       'Enjoy this nutritious and energy-boosting Panjiri!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm51',
@@ -2360,7 +2360,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://crazymasalafood.com/wp-content/images/2022/03/Dal-Makhni-768x576.gif',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'Whole black gram (urad dal), red kidney beans (rajma)',
       'Onion, tomatoes, ginger-garlic paste',
@@ -2381,10 +2381,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the rich and creamy Dal Makhani!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm52',
@@ -2416,10 +2416,10 @@ const dummyMeals = [
       'Serve hot with rice or naan.',
       'Enjoy the delicious Matar Paneer!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm53',
@@ -2431,7 +2431,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://crazymasalafood.com/wp-content/images/2022/03/Rajma-Chawal-768x258.jpg.webp',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'Red kidney beans (rajma)',
       'Basmati rice',
@@ -2451,10 +2451,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the comforting Rajma Chawal!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm54',
@@ -2466,7 +2466,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://crazymasalafood.com/wp-content/images/2022/03/Paneer-Tikka-768x248.jpg.webp',
-    duration: 30,
+    duration: 40,
     ingredients: [
       'Paneer cubes',
       'Yogurt',
@@ -2485,10 +2485,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the delicious Paneer Tikka!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm55',
@@ -2500,7 +2500,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://crazymasalafood.com/wp-content/images/2022/03/Malai-Kofta.jpg.webp',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'For Koftas:',
       'Grated paneer',
@@ -2529,10 +2529,10 @@ const dummyMeals = [
       ' ',
       'Enjoy creamy and indulgent Malai Koftas!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm56',
@@ -2544,7 +2544,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://crazymasalafood.com/wp-content/images/2022/03/Punjabi-Kadhi-Pakora-768x615.jpg.webp',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'For Pakoras:',
       'Gram flour (besan)',
@@ -2577,10 +2577,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the comforting Punjabi Kadhi Pakora!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm57',
@@ -2592,7 +2592,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.crazymasalafood.com/wp-content/images/2022/03/Aloo-Paratha-1.jpg',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'Whole wheat flour (atta)',
       'Water',
@@ -2610,10 +2610,10 @@ const dummyMeals = [
       ' ',
       'Enjoy your delicious Aloo Paratha!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm58',
@@ -2625,7 +2625,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://crazymasalafood.com/wp-content/images/2022/03/Bhatura-Recipe.jpg.webp',
-    duration: 30,
+    duration: 90,
     ingredients: [
       'Chole:'
           'Chickpeas (chole), soaked and boiled',
@@ -2655,10 +2655,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the hearty and flavorful Chole Bhature!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm59',
@@ -2670,7 +2670,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://crazymasalafood.com/wp-content/images/2022/03/Sarson-Ka-Saag-768x293.jpg.webp',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'Mustard greens (sarso)',
       'Spinach',
@@ -2692,10 +2692,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the traditional Sarso Ka Saag with makki ki roti!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm60',
@@ -2707,7 +2707,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://crazymasalafood.com/wp-content/images/2022/03/Amritsari-Kulcha-768x576.jpg.webp',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'Kulcha:',
       'All-purpose flour (maida)',
@@ -2734,10 +2734,10 @@ const dummyMeals = [
       'Brush with butter and serve hot.',
       'Enjoy the delicious and stuffed Amritsari Kulcha!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm61',
@@ -2749,7 +2749,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://crazymasalafood.com/wp-content/images/2022/03/Lassi.jpg.webp',
-    duration: 30,
+    duration: 10,
     ingredients: [
       'Yogurt',
       'Water',
@@ -2765,10 +2765,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the refreshing and creamy Punjabi Lassi!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm62',
@@ -2780,7 +2780,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.crazymasalafood.com/wp-content/images/2022/03/Kaju-Curry.jpg',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'Cashews (kaju)',
       'Onion, tomatoes',
@@ -2802,10 +2802,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the rich and flavorful Kaju Curry!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm63',
@@ -2817,7 +2817,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://crazymasalafood.com/wp-content/images/2022/03/Dum-Aloo-768x477.jpg.webp',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'Baby potatoes, boiled',
       'Onion-tomato masala paste',
@@ -2838,10 +2838,10 @@ const dummyMeals = [
       'Garnish with fresh coriander leaves.',
       'Enjoy the rich and aromatic Bhopali Gosht Korma!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm64',
@@ -2853,7 +2853,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2020/12/Daal-Bafla-Madhya-Pradesh.jpeg?w=800&ssl=1',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'Bafla:',
       'Wheat flour',
@@ -2887,10 +2887,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the wholesome and flavorful Dal Bafla!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm65',
@@ -2902,7 +2902,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2020/12/Bhopali-Gosht-Korma-Madhya-Pradesh.jpg?w=800&ssl=1',
-    duration: 30,
+    duration: 90,
     ingredients: [
       ' Mutton pieces',
       'Onion, tomatoes',
@@ -2926,10 +2926,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the wholesome and flavorful Dal Bafla!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm66',
@@ -2958,10 +2958,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the nutritious and flavorful Palak Puri!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm67',
@@ -2973,7 +2973,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2020/12/Mawa-Bati-Madhya-Pradesh.jpg?w=800&ssl=1',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'Bati:',
       'Khoya (mawa)',
@@ -2997,10 +2997,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the sweet and rich Mawa Bati!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm68',
@@ -3032,10 +3032,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the royal and flavorful Shahi Shikanji!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm69',
@@ -3060,10 +3060,10 @@ const dummyMeals = [
       'Fold and serve with chutney or curry.',
       'Enjoy the light and delicate Neer Dosa!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm70',
@@ -3074,7 +3074,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl: 'https://www.holidify.com/images/cmsuploads/articles/415.jpg',
-    duration: 30,
+    duration: 70,
     ingredients: [
       'For Masala Paste:',
       'Coconut, grated',
@@ -3103,10 +3103,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the flavorful and spicy Kori Gassi!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm71',
@@ -3117,7 +3117,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl: 'https://www.holidify.com/images/cmsuploads/articles/416.jpg',
-    duration: 30,
+    duration: 50,
     ingredients: [
       'For Masala Paste:',
       'Coconut, grated',
@@ -3143,10 +3143,10 @@ const dummyMeals = [
       'Add chicken, masala paste, and cook until chicken is done.Serve hot.',
       'Enjoy the spicy and aromatic Kundapura Koli Saaru!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm72',
@@ -3157,7 +3157,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl: 'https://www.holidify.com/images/cmsuploads/articles/417.jpg',
-    duration: 30,
+    duration: 70,
     ingredients: [
       'For Red Chutney:',
       'Red chilies',
@@ -3183,10 +3183,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the delicious Mysore Masala Dosa!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm73',
@@ -3197,7 +3197,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl: 'https://www.holidify.com/images/cmsuploads/articles/418.jpg',
-    duration: 30,
+    duration: 175,
     ingredients: [
       'Potatoes, boiled and diced',
       'Onion, chopped',
@@ -3218,10 +3218,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the simple and flavorful Allugedda!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm74',
@@ -3232,7 +3232,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl: 'https://www.holidify.com/images/cmsuploads/articles/419.jpg',
-    duration: 30,
+    duration: 40,
     ingredients: ['Besan (gram flour)', 'Ghee', 'Sugar', 'Water'],
     steps: [
       ' Mix besan with ghee to form a smooth batter.',
@@ -3244,10 +3244,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the rich and sweet Mysore Pak!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm75',
@@ -3258,7 +3258,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl: 'https://www.holidify.com/images/cmsuploads/articles/420.jpg',
-    duration: 30,
+    duration: 110,
     ingredients: [
       'Pork pieces',
       'Onion, tomatoes',
@@ -3278,10 +3278,10 @@ const dummyMeals = [
       'Finish with coconut oil and serve hot.',
       'Enjoy the spicy and flavorful Coorg Pandi Curry!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm76',
@@ -3292,7 +3292,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl: 'https://www.holidify.com/images/cmsuploads/articles/421.jpg',
-    duration: 30,
+    duration: 40,
     ingredients: [
       'Rice flour',
       'Coconut, grated',
@@ -3308,10 +3308,10 @@ const dummyMeals = [
       'Pour into a greased tray, let it set, and cut into pieces.',
       'Enjoy the sweet and traditional Haalbai!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm77',
@@ -3322,7 +3322,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl: 'https://www.holidify.com/images/cmsuploads/articles/422.jpg',
-    duration: 30,
+    duration: 50,
     ingredients: [
       'Rice',
       'Toor dal',
@@ -3345,10 +3345,10 @@ const dummyMeals = [
       'Add tempering to the Bisi Bele Bath mixture and mix well.',
       'Enjoy the flavorful and piping hot Bisi Bele Bath!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm78',
@@ -3359,7 +3359,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl: 'https://www.holidify.com/images/cmsuploads/articles/423.jpg',
-    duration: 30,
+    duration: 25,
     ingredients: [
       'Semolina (rava/sooji)',
       'Ghee',
@@ -3382,10 +3382,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the quick and delightful Rava Kesari!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm79',
@@ -3397,7 +3397,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2015/11/5645919324_30efcbe343_z.jpg',
-    duration: 30,
+    duration: 75,
     ingredients: [
       'For Puttu:',
       'Rice flour',
@@ -3423,10 +3423,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the classic and delicious Puttu and Kadala Curry!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm80',
@@ -3438,7 +3438,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2015/11/5931050778_6415a463f5_z.jpg',
-    duration: 30,
+    duration: 80,
     ingredients: [
       ' For Appam:',
       'Rice flour',
@@ -3468,10 +3468,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the delightful combination of Appam with Stew!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm81',
@@ -3483,7 +3483,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2015/11/2172142213_9178f0c480_z.jpg',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'Rice flour',
       'Water',
@@ -3497,10 +3497,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the simple and versatile Idiyappam!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm82',
@@ -3512,7 +3512,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2015/11/296806262_a0a7ae4921_z.jpg',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'Chicken pieces',
       'Red chili powder',
@@ -3532,10 +3532,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the bold and tasty Nadan Kozhi Varuthathu!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm83',
@@ -3572,10 +3572,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the rich and coconut-flavored Kerala Prawn Curry!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+  isHealthy : true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm84',
@@ -3587,7 +3587,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2015/11/0743540a2072b8147c979e21f52b2ed2.jpg',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'Beef, thinly sliced',
       'Shallots',
@@ -3612,10 +3612,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the robust flavors of Naadan Beef Fry!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm85',
@@ -3627,7 +3627,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2015/11/4779952309_c97d25813a_z.jpg',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'All-purpose flour (maida)',
       'Water',
@@ -3642,10 +3642,10 @@ const dummyMeals = [
           'Flatten and cook on a griddle with ghee until golden.',
       'Enjoy the flaky and delicious Malabar Parota!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm86',
@@ -3657,7 +3657,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2015/11/2303829166_5dc1ca5eb9_z.jpg',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'Fish pieces',
       'Coconut milk',
@@ -3680,10 +3680,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the flavorful and coconut-infused Kerala Style Fish Molee!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm87',
@@ -3712,10 +3712,10 @@ const dummyMeals = [
       'Serve hot as a sweet and crunchy snack.',
       'Enjoy the quick and delightful Banana Fritters!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm88',
@@ -3727,7 +3727,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2015/11/6145939445_606678d579_z.jpg',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'Palada (rice flakes)',
       'Milk',
@@ -3746,10 +3746,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the rich and creamy Palada Payasam!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm89',
@@ -3776,10 +3776,10 @@ const dummyMeals = [
       'Serve hot with coconut chutney or sambar.',
       'Enjoy the savory and delicious Uttapam!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm90',
@@ -3811,10 +3811,10 @@ const dummyMeals = [
       'Serve hot as a sweet and delightful snack.',
       'Enjoy the quick and tasty Banana Bonda!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm91',
@@ -3826,7 +3826,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2015/11/GarlicRasam.jpg',
-    duration: 30,
+    duration: 20,
     ingredients: [
       'Tamarind',
       'Tomato',
@@ -3853,10 +3853,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the quick and tasty Rasam!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm92',
@@ -3868,7 +3868,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2015/11/A_banana_leaf_with_Tamil_bites_-_Murukku.jpg',
-    duration: 30,
+    duration: 40,
     ingredients: [
       'Rice flour',
       'Urad dal flour',
@@ -3889,10 +3889,10 @@ const dummyMeals = [
       'Drain excess oil and let them cool.',
       'Enjoy the crunchy and flavorful Murukku!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm93',
@@ -3904,7 +3904,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2015/11/640px-Sambar.jpg',
-    duration: 30,
+    duration: 40,
     ingredients: [
       ' Toor dal',
       'Mixed vegetables (drumsticks, carrots, beans, etc.)',
@@ -3931,10 +3931,10 @@ const dummyMeals = [
       'Add the tempering to the sambar and garnish with coriander leaves.Serve hot with rice.'
           'Enjoy the aromatic and flavorful Sambar!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm94',
@@ -3946,7 +3946,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2015/11/640px-Coconut_Chutney.jpg',
-    duration: 30,
+    duration: 15,
     ingredients: [
       ' Grated coconut',
       'Green chilies',
@@ -3967,22 +3967,22 @@ const dummyMeals = [
       ' ',
       '.Enjoy the simple and tasty Coconut Chutney!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm95',
     categories: [
       'c8',
     ],
-    title: ' Idli and Vada',
+    title: 'Idli and Vada',
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2015/11/Idli_and_Medu_vada.jpg',
-    duration: 30,
+    duration: 70,
     ingredients: [
       ' For Idli:',
       'Idli rice',
@@ -4006,17 +4006,17 @@ const dummyMeals = [
       ' ',
       'Enjoy the classic and delicious Idli and Vada combo!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm96',
     categories: [
       'c8',
     ],
-    title: ' Lemon Rice',
+    title: 'Lemon Rice',
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl:
@@ -4045,10 +4045,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the tangy and flavorful Lemon Rice!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm97',
@@ -4060,7 +4060,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2015/11/paruppu-payasam-recipe.jpg',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'Moong dal',
       'Jaggery',
@@ -4079,10 +4079,10 @@ const dummyMeals = [
       'Add the fried nuts to the payasam and serve.',
       'Enjoy the sweet and rich Paruppu Payasam!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm98',
@@ -4094,7 +4094,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2015/11/Poriyal.jpg',
-    duration: 30,
+    duration: 20,
     ingredients: [
       'Vegetables (beans, carrots, cabbage, etc.)',
       'Mustard seeds',
@@ -4113,17 +4113,17 @@ const dummyMeals = [
       ' ',
       'Enjoy the simple and nutritious Poriyal!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm99',
     categories: [
       'c9',
     ],
-    title: 'Kachaloo Chaat ',
+    title: 'Kachaloo Chaat',
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl:
@@ -4150,17 +4150,17 @@ const dummyMeals = [
       ' ',
       'Serve immediately and enjoy the flavorful Kachaloo Chaat!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm100',
     categories: [
       'c9',
     ],
-    title: 'Kaladi Kulcha ',
+    title: 'Kaladi Kulcha',
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl:
@@ -4179,10 +4179,10 @@ const dummyMeals = [
       'Optionally, garnish with chopped onions, tomatoes, and green chilies.',
       'Serve hot and enjoy Kaladi Kulcha, a delicious local cheese-filled bread!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm101',
@@ -4194,7 +4194,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://flavorverse.com/wp-content/uploads/2017/05/Khatta-Meat-Jammu-and-Kashmir-Dogri-Food.jpg',
-    duration: 30,
+    duration: 80,
     ingredients: [
       'Mutton',
       'Yogurt',
@@ -4210,10 +4210,10 @@ const dummyMeals = [
       'Adjust consistency and seasoning.',
       'Serve Khatta Meat with rice or bread. Enjoy!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm102',
@@ -4225,7 +4225,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://flavorverse.com/wp-content/uploads/2017/05/Patisa-Famous-Jammu-and-Kashmir-Food-640x522.jpg',
-    duration: 30,
+    duration: 50,
     ingredients: [
       'Gram flour',
       'Ghee',
@@ -4242,10 +4242,10 @@ const dummyMeals = [
       ' ',
       'Enjoy the flaky and sweet Patisa!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm103',
@@ -4257,7 +4257,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://flavorverse.com/wp-content/uploads/2017/05/Kashmiri-Polao-Typical-Jammu-and-Kashmir-Food.jpg',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'Basmati rice,'
           'Mixed dry fruits (almonds, cashews, raisins)',
@@ -4275,17 +4275,17 @@ const dummyMeals = [
       'Garnish with fried onions and more dry fruits.',
       'Serve the aromatic Kashmiri Pulao!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+  isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm104',
     categories: [
       'c9',
     ],
-    title: ' Seekh Kebab',
+    title: 'Seekh Kebab',
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl:
@@ -4307,22 +4307,22 @@ const dummyMeals = [
       'Grill or bake until cooked and slightly charred.',
       'Serve hot with naan or as desired. Enjoy the flavorful Seekh Kebabs!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm105',
     categories: [
       'c9',
     ],
-    title: 'Nadru Yakhni ',
+    title: 'Nadru Yakhni',
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl:
         'https://flavorverse.com/wp-content/uploads/2017/05/Nadru-Yakhni-Kashmiri-Pandit-Food-768x512.jpg',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'Lotus stems (Nadru)',
       'Yogurt',
@@ -4345,10 +4345,10 @@ const dummyMeals = [
       'Add boiled lotus stems, simmer until flavors blend.',
       'Adjust salt, serve Nadru Yakhni with rice or bread. Enjoy!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm106',
@@ -4360,7 +4360,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/09/chana-madra.jpg',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'Chickpeas (Kalaadi in traditional recipe)',
       'Yogurt',
@@ -4383,10 +4383,10 @@ const dummyMeals = [
       'Add cooked chickpeas, simmer until flavors meld.',
       'Adjust salt, serve Madra with rice. Enjoy the rich and flavorful dish!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm107',
@@ -4398,7 +4398,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/09/dham.jpg',
-    duration: 30,
+    duration: 90,
     ingredients: [
       'Common Dishes:',
       'Rajma (Kidney beans)',
@@ -4423,22 +4423,22 @@ const dummyMeals = [
       ' ',
       'Enjoy the diverse and flavorful Dhaam feast!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm107',
     categories: [
       'c10',
     ],
-    title: ' Tudkiya Bhath',
+    title: 'Tudkiya Bhath',
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/09/tudkiya-bhaat.jpg',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'Basmati rice',
       'Meat (usually lamb or goat)',
@@ -4465,22 +4465,22 @@ const dummyMeals = [
       'Mix in soaked rice, add water, and simmer until rice is cooked.',
       'Adjust salt, serve Tudkiya Bhath hot. Enjoy this aromatic rice and meat dish!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm108',
     categories: [
       'c10',
     ],
-    title: '  Bhey or Spicy Lotus stems',
+    title: 'Bhey or Spicy Lotus stems',
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/09/bhey.jpg',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'Lotus stems (Bhey)',
       'Mustard oil',
@@ -4502,10 +4502,10 @@ const dummyMeals = [
       'Sprinkle amchoor and salt, adjust seasoning.',
       'Serve hot as a spicy and flavorful side dish. Enjoy!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm109',
@@ -4517,7 +4517,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/09/chha-gosht.jpg',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'Lamb or goat meat',
       'Mustard oil',
@@ -4543,10 +4543,10 @@ const dummyMeals = [
       ' ',
       'Enjoy Chha Gosht with rice or bread!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm110',
@@ -4578,10 +4578,10 @@ const dummyMeals = [
           ' ',
       'Enjoy this traditional Himalayan stuffed bread!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm111',
@@ -4593,7 +4593,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/09/babru.jpg',
-    duration: 30,
+    duration: 20,
     ingredients: [
       'Black gram dal (urad dal)',
       'All-purpose flour (maida)',
@@ -4617,10 +4617,10 @@ const dummyMeals = [
       'Roll into flat discs and fry until golden brown.',
       'Serve hot and enjoy Babru, a flavorful stuffed bread',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm112',
@@ -4632,7 +4632,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/09/kullu-trout_med.jpg',
-    duration: 30,
+    duration: 20,
     ingredients: [
       'Fresh trout fish',
       'Mustard oil',
@@ -4653,10 +4653,10 @@ const dummyMeals = [
       'Garnish with fresh coriander.',
       'Serve hot with rice or local bread.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm113',
@@ -4668,7 +4668,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/10/maxresdefault.jpg',
-    duration: 30,
+    duration: 40,
     ingredients: [
       'Black chickpeas, boiled',
       'Mustard oil',
@@ -4687,10 +4687,10 @@ const dummyMeals = [
       'Garnish with fresh coriander.',
       'Serve hot with rice or bread. Enjoy!'
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm114',
@@ -4702,7 +4702,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/07/Kafuli.jpg',
-    duration: 30,
+    duration: 25,
     ingredients: [
       'Spinach or lambs quarters',
       'Urad dal, rice flour (optional)',
@@ -4719,10 +4719,10 @@ const dummyMeals = [
       'Season with salt.',
       'Serve hot with rice or bread. Enjoy Kafuli!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm115',
@@ -4734,7 +4734,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/07/bhaang-ki-chutney.jpg',
-    duration: 30,
+    duration: 15,
     ingredients: [
       'Bhang seeds (hemp seeds)',
       'Fresh coriander leaves',
@@ -4751,10 +4751,10 @@ const dummyMeals = [
       'Chill in the refrigerator before serving',
       'Serve Bhang Ki Chutney as a spicy and flavorful condiment. Enjoy in moderation, considering the use of hemp seeds.',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm116',
@@ -4766,7 +4766,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/07/phaanu.jpg',
-    duration: 30,
+    duration: 45,
     ingredients: [
       'Whole urad dal (black gram)',
       'Kidney beans (rajma)',
@@ -4794,10 +4794,10 @@ const dummyMeals = [
       'Season with salt and ghee.',
       'Serve hot with rice or Indian bread. Enjoy the hearty and flavorful Phaanu!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm117',
@@ -4833,10 +4833,10 @@ const dummyMeals = [
       'Season with salt and cook until the desired consistency is reached.',
       'Serve hot with rice or Indian bread. Enjoy the rich and flavorful Chainsoo!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm118',
@@ -4848,7 +4848,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/07/kumaoni-raita.jpg',
-    duration: 30,
+    duration: 15,
     ingredients: [
       'Yogurt',
       'Cucumber, finely chopped',
@@ -4870,10 +4870,10 @@ const dummyMeals = [
       'Chill in the refrigerator before serving.',
       'Serve Kumaoni Raita as a refreshing side dish with meals. Enjoy the cool and tangy flavors!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm119',
@@ -4885,7 +4885,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/07/jhangora-ki-kheer.jpg',
-    duration: 30,
+    duration: 60,
     ingredients: [
       'Jhangora (barnyard millet)',
       'Milk',
@@ -4909,10 +4909,10 @@ const dummyMeals = [
       'Allow it to cool, and then refrigerate.',
       'Serve chilled and enjoy Jhangora Ki Kheer as a delicious millet dessert!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm120',
@@ -4944,10 +4944,10 @@ const dummyMeals = [
       'Optionally, dust with powdered sugar before serving.',
       'Serve Gulgula as a sweet snack or dessert. Enjoy these delightful, bite-sized fritters!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm121',
@@ -4959,7 +4959,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://www.holidify.com/blog/wp-content/uploads/2016/07/arsa.jpg',
-    duration: 30,
+    duration: 20,
     ingredients: [
       'Rice',
       'Jaggery',
@@ -4979,10 +4979,10 @@ const dummyMeals = [
       'Remove excess oil by placing them on paper towels.',
       'Serve Arsa as a sweet, crispy treat. Enjoy!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
   Meal(
     id: 'm122',
@@ -5014,9 +5014,9 @@ const dummyMeals = [
       'Remove excess oil by placing them on paper towels.',
       'Serve Arsa as a sweet, crispy treat. Enjoy!',
     ],
-    isGlutenFree: true,
-    isVegan: true,
+    isHealthy: true,
+    isQuick: true,
     isVegetarian: true,
-    isLactoseFree: true,
+    isSweet: true,
   ),
 ];
